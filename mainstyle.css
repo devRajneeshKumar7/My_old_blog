@@ -1,0 +1,43 @@
+/*CONTENT*/
+#content{
+    margin: 20px;
+  }
+  
+  
+  .post, .about{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  
+  
+  .post-author img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  
+  .post-author span{
+    margin-left: 16px;
+  }
+  
+  
+  .post-date{
+    color: #d2d2d2;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  
+  h1, h2, h3, h4{
+    color: #333;
+  }
+  
+  p{
+    line-height: 1.5;
+  }
+  

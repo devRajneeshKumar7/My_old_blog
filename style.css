@@ -1,0 +1,331 @@
+/*BODY*/
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+ 
+ 
+
+  @media (min-width: 720px){
+body{
+  color: #555;
+  font-family: 'Balsamiq Sans', cursive;
+  margin: 0 auto;
+}
+
+
+
+p::selection{
+  background-color: #222;
+  color: #1abc9c;
+}
+
+
+a::selection{
+  background-color: #222;
+  color: #F6A623;
+}
+
+
+strong::selection, em::selection{
+  color: #00DDFF;
+  background-color: #222;
+}
+
+
+h3::selection{
+  color: #ff1d58;
+  background-color: #222;
+}
+
+
+img::selection{
+  background-color: #6ed3cf;
+}
+
+
+a{
+  letter-spacing: 0.1em;
+  text-decoration: none !important;
+  word-spacing: 0.1em;
+}
+
+
+a:hover{
+   animation-name: zoom;
+   animation-duration: 0.2s;
+   animation-fill-mode: forwards;
+}
+ 
+
+a{
+  text-decoration: none;
+  animation-name: shrink;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes zoom {
+  from{font-size: 100%; color: #ff1e00;}
+  to{font-size: 120%; color: #F6A623;}
+}
+
+
+@keyframes shrink {
+  from{font-size: 120%; color: #F6A623;}
+  to{font-size: 100%; color: #ff1e00;}
+}
+
+
+@keyframes headzoom {
+  from{font-size: 22px;}
+  to{font-size: 30px;}
+}
+
+
+@keyframes headshrink {
+  from{font-size: 30px;}
+  to{font-size: 22px;}
+}
+
+
+@keyframes example{
+  
+  25%{transform: rotate(90deg);}
+  50%{transform: rotate(90deg);}
+  100%{transform: rotate(0deg);}
+ }
+ 
+ @keyframes swing{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(90deg);}
+   50%{transform: rotate(180deg);}
+   75%{transform: rotate(90deg);}
+   100%{transform: rotate(360deg);}
+ }
+
+
+
+
+
+
+
+
+ 
+ #border{
+ width:45px;
+ height:80px;
+ border:1px solid #000;
+
+ border-radius: 10%;
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+ background-color: black;
+ padding: 5px;
+ }
+ 
+ 
+ #screen{
+ width:45px;
+ height:80px;
+ 
+ 
+ border-radius: 10%;
+ background-color: #333;
+ }
+ 
+
+ #imp{
+  margin: 1vh 1vw 1vh 1vw;
+        padding: 1vh 1vw 1vh 1vw;
+ }
+
+ #notice{
+   color: black;
+ }
+
+
+ #impcontent{
+       margin: 1vh 1vw 1vh 10vw;
+        padding: 1vh 1vw 1vh 10vw;
+ }
+
+
+ #border:hover{
+    
+   animation-name: swing;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ }
+
+
+ .desktopMode{
+   width: 70vw;
+   border-radius: 2vw;
+   border: black solid 2px;
+   box-shadow: 1vw 1vw 1vw 1vw black;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HEADER*/
+
+
+
+#header{
+  background-color: #1abc9c;
+  height: 150px !important;
+  line-height: 150px !important;
+}
+
+
+#header a{
+  color: white !important;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 20px;
+}
+
+
+
+
+#header-nav a:hover{
+  transition: 0.2s;
+  color: #222;
+  font-size: 120%;
+}
+
+
+#header-title{
+  display: block;
+  float: left;
+  font-size: 22px;
+  font-weight: bold;
+  animation-name: headshrink;
+   animation-duration: 0.2s;
+   animation-fill-mode: forwards;
+}
+
+
+#header-title:hover{
+  animation-name: headzoom;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+
+#header-nav{
+  font-size: 18px;
+  display: block;
+  float: right;
+}
+
+
+#header-nav li{
+  display: inline-block;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+#footer{
+  background-color: #2f2f2f;
+  padding: 50px 0 50px 0;
+  height: 100px;
+  margin: 0;
+  display: block;
+}
+
+#footer h3{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+#footer p{
+  color: white;
+}
+
+
+.column{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  display: block;
+  float: left;
+}
+
+
+ .fi{
+  display: inline-block;
+  padding-left: 50px;
+  margin-top: 0;
+  list-style-type: none;
+
+}
+
+
+.fc{
+  color: #1abc9c !important;
+}
+
+
+.fcontainer{
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+ }

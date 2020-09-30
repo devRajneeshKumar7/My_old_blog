@@ -1,0 +1,26 @@
+/*ABOUT CONTENT*/
+ .about-author img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+
+  .myStory{
+      margin-top: 3em;
+  }
+
+  
+  #content{
+    margin: 20px;
+  }
+
+  
+ .fc{
+    color: #1abc9c !important;
+  }
+  
+
+  a{
+    color: #ff1e00;
+}

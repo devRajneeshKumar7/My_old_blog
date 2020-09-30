@@ -1,0 +1,8 @@
+@media (min-width: 1250px) {
+    .desktopMode{
+      width: 50vw;
+      border-radius: 2vw;
+      border: black solid 2px;
+      box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw black;
+    }
+  }
